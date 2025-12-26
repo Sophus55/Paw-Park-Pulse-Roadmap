@@ -48,7 +48,7 @@
         background: transparent ! important;
         color: #c9d1d9;
     }
-    . markdown-body h1,
+    .markdown-body h1,
     .markdown-body h2,
     .markdown-body h3,
     .markdown-body h4,
@@ -77,6 +77,9 @@
     .markdown-body code {
         background:  #161b22;
         color: #c9d1d9;
+    }
+    .markdown-body strong {
+        color: #ffffff;
     }
     footer {
         text-align: center;
@@ -108,9 +111,9 @@
     <div class="content-wrapper">
         <div class="markdown-body">
             <h1>Paw Park Pulse Privacy Policy</h1>
-            <p><strong>Last Updated: </strong> December 26, 2025</p>
+            <p><strong>Last Updated: </strong> October 7, 2025</p>
 
-            <p><em>(Non‑legal summary)</em> You create an account, optionally add profile + dog info, and use location to find parks.  We log anonymous subscription attempt events (you can turn this off). We don't sell your data. If you delete your account, we delete your personal data and photos. There is no end‑to‑end encryption; standard platform security applies.</p>
+            <p><em>(Non‑legal summary)</em> You create an account, optionally add profile + dog info, and use location to find parks. We log anonymous subscription attempt events (you can turn this off). We don't sell your data. If you delete your account, we delete your personal data and photos. There is no end‑to‑end encryption; standard platform security applies.</p>
 
             <hr>
 
@@ -118,7 +121,7 @@
             <p>Paw Park Pulse ("Paw Park Pulse", "we", "us", or "the App") helps dog owners discover dog parks, check in, and share community input. This Privacy Policy explains what personal data we collect, how we use it, and your choices.  By using the App you agree to this Policy.</p>
             <p><strong>You must not use the App if you disagree with this Policy.</strong></p>
 
-            <h2>2.  Scope</h2>
+            <h2>2. Scope</h2>
             <p>This Policy applies to the Paw Park Pulse mobile application and any related in‑app features. It does not cover third‑party websites or services we do not control.</p>
 
             <h2>3. Data We Collect</h2>
@@ -155,7 +158,7 @@
             <ul>
                 <li>Subscription tier (Single or Family)</li>
                 <li>Renewal status, product identifiers, expiration date</li>
-                <li>(No full payment card data—Apple handles billing. )</li>
+                <li>(No full payment card data—Apple handles billing.)</li>
             </ul>
 
             <h3>3.6 Support Communications</h3>
@@ -179,7 +182,7 @@
                 <li>timestamp</li>
                 <li>user_id (UID or "anonymous" if not signed in at that moment)</li>
             </ul>
-            <p>No advertising identifiers, no precise location, and no payment card data are included. You can disable this logging at any time via <strong>Settings &gt; Account &gt; Anonymous Analytics</strong> toggle.  When disabled, no new events are written (existing historical events are not retroactively removed but can be deleted upon verified request, subject to legal limits).</p>
+            <p>No advertising identifiers, no precise location, and no payment card data are included. You can disable this logging at any time via Settings &gt; Account &gt; Anonymous Analytics toggle. When disabled, no new events are written (existing historical events are not retroactively removed but can be deleted upon verified request, subject to legal limits).</p>
 
             <h3>Not Collected</h3>
             <ul>
@@ -193,99 +196,93 @@
             <ul>
                 <li>Provide and maintain core functionality (authentication, park search, check‑ins)</li>
                 <li>Display and attribute your submitted content</li>
-                <li>Process subscriptions and manage entitlements</li>
+                <li>Operate subscriptions and entitlement validation (Single $2.99 / Family $9.99 — pricing may vary by region/tax)</li>
+                <li>Moderate or remove content that violates our Terms</li>
                 <li>Respond to support requests</li>
-                <li>Improve app performance and fix bugs</li>
-                <li>Understand subscription conversion (minimal anonymous analytics, opt-out available)</li>
+                <li>Improve reliability and fix bugs (e.g., by using crash or error info)</li>
+                <li>Measure general subscription flow interest (anonymous event logging, opt‑out available)</li>
+                <li>Enforce Terms of Use and protect against abuse or fraud</li>
+                <li>Comply with applicable legal obligations</li>
             </ul>
 
-            <h2>5. Data Sharing</h2>
-            <p>We <strong>do not sell</strong> your personal data. </p>
-            <p>We share data only in these limited cases:</p>
+            <h2>5. Legal Basis (International Users)</h2>
+            <p>The App is operated from the United States (West Virginia). If you access it from other regions, processing may rely on: </p>
             <ul>
-                <li><strong>Firebase / Google Cloud: </strong> Backend infrastructure (authentication, database, storage). Google processes data per their <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy terms</a>.</li>
-                <li><strong>Cloudinary:</strong> Image hosting service for park photos and profile pictures.  Images are stored on Cloudinary's servers per their <a href="https://cloudinary.com/privacy" target="_blank">privacy policy</a>.</li>
-                <li><strong>Apple:</strong> Subscription billing is handled by Apple via the App Store. We do not see your payment details.</li>
-                <li><strong>Legal Requirements:</strong> We may disclose data if required by law, court order, or to protect safety and rights.</li>
+                <li>Contract (providing the service you requested)</li>
+                <li>Legitimate interests (service reliability, fraud prevention, minimal operational analytics)</li>
+                <li>Consent (precise location access, optional profile fields)</li>
+                <li>Legal obligation (records retention if required by law)</li>
             </ul>
+            <p>For jurisdictions requiring it, we honor opt‑out to limit processing for analytics beyond essential service operation.</p>
 
-            <h2>6. Data Retention & Deletion</h2>
-            <h3>Account Deletion</h3>
-            <p>You can delete your account at any time via <strong>Settings &gt; Account &gt; Delete Account</strong>. Upon deletion: </p>
+            <h2>6. Sharing & Disclosure</h2>
+            <p>We do <strong>not</strong> sell or rent personal data. </p>
+            <p>We may disclose limited data to:</p>
             <ul>
-                <li>Your profile data and authentication records are deleted within 24 hours</li>
-                <li>Your uploaded photos are removed from Cloudinary</li>
-                <li>Park suggestions and reviews you submitted are anonymized (they remain visible but are no longer tied to your identity)</li>
-                <li>Check-ins are removed</li>
+                <li><strong>Service Providers:</strong> Firebase (authentication, Firestore storage), Apple (Sign In & App Store billing), cloud storage/CDN services for images. </li>
+                <li><strong>Legal & Safety:</strong> When required by law, subpoena, or to protect rights, safety, or integrity of the service.</li>
+                <li><strong>Business Transfer:</strong> If we undergo a merger, acquisition, or asset sale (you will be notified where legally required).</li>
             </ul>
+            <p><strong>Public Content:</strong> Photos, park suggestions, and display names you intentionally submit for public display may be visible to other users.</p>
 
-            <h3>Data Retention</h3>
-            <p>We retain data as long as your account is active or as needed to provide services.  After account deletion, some anonymized or aggregated data may be retained for legal, security, or operational purposes.</p>
-
-            <h2>7. Security</h2>
-            <p>We use industry-standard security measures including:</p>
+            <h2>7. Data Retention & Deletion</h2>
             <ul>
-                <li>Firebase Authentication for secure login</li>
-                <li>Firestore Security Rules to protect user data</li>
-                <li>HTTPS encryption for data in transit</li>
-                <li>Access controls limiting who can view or modify data</li>
+                <li><strong>Active Account:</strong> Retained while your account exists.</li>
+                <li><strong>Account Deletion:</strong> When you request deletion (or use an in‑app delete feature), we delete personal profile data, subscription linkage, dog info, and user photos.  Deletion is initiated promptly and completed within a reasonable timeframe subject to technical constraints and legal holds.</li>
+                <li><strong>Public Contributions:</strong> Park photos and suggestions are also removed unless required for legal reasons (e.g., abuse investigation); if retained, they are anonymized.</li>
+                <li><strong>Minimal Analytics Events:</strong> Retained up to 12 months (rolling) for trend and fraud detection, then purged or aggregated. Earlier deletion can be requested (we may need to retain some events for anti-fraud or legal compliance purposes).</li>
             </ul>
-            <p><strong>Note:</strong> There is no end-to-end encryption for user content.  Standard platform security (Firebase, Cloudinary) applies.  No system is 100% secure—use the app at your own risk.</p>
+            <p>You can request deletion by emailing:  <a href="mailto:ray@lowrynet.com">ray@lowrynet.com</a> (from the email associated with your account) if an in‑app option is not yet available.</p>
 
-            <h2>8. Children's Privacy</h2>
-            <p>Paw Park Pulse is not intended for children under 13. We do not knowingly collect data from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it. </p>
-
-            <h2>9. Your Rights & Choices</h2>
-            <h3>Access & Correction</h3>
-            <p>You can view and edit your profile data in <strong>Settings &gt; Account</strong>. </p>
-
-            <h3>Location Permissions</h3>
-            <p>You can disable location access at any time via your device settings (<strong>Settings &gt; Paw Park Pulse &gt; Location</strong>). Disabling location will limit park discovery features. </p>
-
-            <h3>Analytics Opt-Out</h3>
-            <p>You can disable anonymous subscription analytics via <strong>Settings &gt; Account &gt; Anonymous Analytics</strong>. </p>
-
-            <h3>Account Deletion</h3>
-            <p>Delete your account via <strong>Settings &gt; Account &gt; Delete Account</strong>. </p>
-
-            <h3>Data Portability</h3>
-            <p>You can request a copy of your data by contacting us at the email below.</p>
-
-            <h2>10. Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. Changes will be posted in the app and on this page with a new "Last Updated" date.  Continued use of the app after changes constitutes acceptance of the updated policy.</p>
-
-            <h2>11. Contact Us</h2>
-            <p>If you have questions or concerns about this Privacy Policy, please contact us: </p>
+            <h2>8. Your Choices & Rights</h2>
             <ul>
-                <li><strong>Email:</strong> support@pawparkpulse.com</li>
-                <li><strong>In-App:</strong> Settings &gt; Help &gt; Contact Support</li>
+                <li><strong>Location: </strong> Disable in device settings to stop location access (core location‑based features will degrade).</li>
+                <li><strong>Anonymous Analytics:</strong> Toggle on/off in Account Settings. Off = no new operational subscription attempt events stored. </li>
+                <li><strong>Profile Edits:</strong> Modify or remove optional profile fields in the app (when UI available) or by contacting support.</li>
+                <li><strong>Deletion:</strong> Request account deletion as described above.</li>
+                <li><strong>International Rights:</strong> Depending on your jurisdiction (e.g., EU/EEA/UK, some U.S. states), you may have rights to access, rectify, delete, restrict, object, or portability.  We will honor valid requests within applicable legal timeframes.</li>
             </ul>
 
-            <h2>12. California Privacy Rights (CCPA)</h2>
-            <p>If you are a California resident, you have the right to: </p>
-            <ul>
-                <li>Know what personal information is collected, used, shared, or sold</li>
-                <li>Request deletion of your personal information</li>
-                <li>Opt-out of the sale of personal information (we do not sell data)</li>
-                <li>Non-discrimination for exercising your rights</li>
-            </ul>
-            <p>To exercise these rights, contact us at support@pawparkpulse.com.</p>
+            <h2>9. Children</h2>
+            <p>The App is not directed to children under 13 and is not intended for anyone below the minimum digital consent age in their jurisdiction.  We do not knowingly collect data from children.  Contact us if you believe we have inadvertently collected such data and we will take steps to delete it.</p>
 
-            <h2>13. European Privacy Rights (GDPR)</h2>
-            <p>If you are in the European Economic Area (EEA), you have rights under GDPR including:</p>
+            <h2>10. Security</h2>
+            <p>We use reasonable administrative, technical, and organizational measures proportionate to the nature of the data: </p>
             <ul>
-                <li>Right to access your personal data</li>
-                <li>Right to rectify inaccurate data</li>
-                <li>Right to erasure ("right to be forgotten")</li>
-                <li>Right to restrict processing</li>
-                <li>Right to data portability</li>
-                <li>Right to object to processing</li>
+                <li>Transport security (TLS) for data in transit between the app and backend services. </li>
+                <li>Access controls restricted to operational personnel.</li>
+                <li>Authentication handled via Firebase Auth.</li>
             </ul>
-            <p>To exercise these rights, contact us at support@pawparkpulse.com.  You also have the right to lodge a complaint with a supervisory authority in your country.</p>
+            <p><strong>Important:</strong> <strong>No end‑to‑end encryption</strong> of user-generated content is provided. Data at rest may rely on platform (e.g., Firebase / cloud provider) encryption rather than custom application‑layer encryption.  No security is perfect; use the App at your own risk and promptly report suspected breaches.</p>
+
+            <h2>11. International Transfers</h2>
+            <p>Data may be stored or processed in the United States or other regions where our infrastructure or service providers operate. By using the App you consent to these transfers.  Where required, we rely on standard contractual clauses or other lawful mechanisms. </p>
+
+            <h2>12. Third-Party Services & Links</h2>
+            <p>External links or embedded resources (if any) are governed by their own policies. Review their privacy practices separately.</p>
+
+            <h2>13. Do Not Track</h2>
+            <p>We do not currently respond to browser or platform "Do Not Track" signals. </p>
+
+            <h2>14. Changes to This Policy</h2>
+            <p>We may update this Policy.  The "Last Updated" date reflects the latest revision. Material changes may be highlighted in‑app or via notice.  Continued use after changes become effective constitutes acceptance. </p>
+
+            <h2>15. Contact</h2>
+            <p>Questions, requests, or concerns: </p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:ray@lowrynet.com">ray@lowrynet.com</a></li>
+                <li>(Postal address may be added if required by applicable law. )</li>
+            </ul>
+
+            <h2>16. California / U.S. State Notices (General Statement)</h2>
+            <p>We do not sell personal information and do not share it for cross‑context behavioral advertising. If state privacy laws grant you specific rights beyond those listed, contact us and we will provide information or action as required by law.</p>
+
+            <h2>17. Future Features / Analytics Expansion Disclaimer</h2>
+            <p>If we later introduce broader analytics, advertising, or additional data uses, we will update this Policy and, where required, request consent before activation. </p>
 
             <hr>
 
-            <p><em>This Privacy Policy is effective as of the "Last Updated" date above.</em></p>
+            <p><strong>Version: </strong> PP v1.1</p>
         </div>
 
         <footer>
@@ -297,7 +294,7 @@
                 <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Terms of Use</a>
             </div>
             <div style="margin-top: 10px; font-size: 0.9em;">
-                © 2025 Paw Park Pulse. All rights reserved.
+                © 2025 Paw Park Pulse. All rights reserved. 
             </div>
         </footer>
     </div>

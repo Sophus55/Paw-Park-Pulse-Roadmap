@@ -100,7 +100,7 @@ We'd love to hear from you! Your feedback shapes what we build next.
 ### How to Submit Ideas:
 - **In the App:** Home → Submit Feedback (bottom of the screen)
 - **Facebook:** Comment on our posts or send us a message
-- **Github Discussion**https://github.com/Sophus55/Paw-Park-Pulse-Roadmap/discussions/28
+- **GitHub:** [Open a discussion]([https://github.com/Sophus55/Paw-Park-Pulse/discussions](https://github.com/Sophus55/Paw-Park-Pulse-Roadmap/discussions/28)) (for technical suggestions)
 
 ---
 

@@ -37,8 +37,6 @@ These features are actively in development!
 ### Version 1.4 (Target: February 2026)
 | Feature | Description | Status |
 |---------|-------------|--------|
-| 🔨 Account Recovery | Recover your account if you get locked out | In Progress |
-| 🔨 Security Questions | Set up security questions for account protection | In Progress |
 | 🔨 Better Error Messages | Clearer feedback when something goes wrong | Planned |
 | 🔨 Security Improvements | Enhanced protection for your data | Planned |
 

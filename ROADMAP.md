@@ -1,22 +1,26 @@
 # 🐾 Paw Park Pulse Roadmap
 
-**Last Updated:** December 26, 2025
+**Last Updated:** January 4, 2026
 
-Welcome to the Paw Park Pulse roadmap! Here you can see what we've built, what we're working on, and what's coming next. 
+Welcome to the Paw Park Pulse roadmap! Here you can see what we've built, what we're working on, and what's coming next.  
 
-Have a feature request? Submit feedback in the app or comment on our Facebook page!
+Have a feature request? Submit feedback in the app or comment on our Facebook page! 
 
 ---
 
 ## 📌 Visual Roadmap
 
-Want a more visual view? Check out our **[Project Board](https://github.com/users/Sophus55/projects/1)**! 
+Want a more visual view?  Check out our **[Project Board](https://github.com/users/Sophus55/projects/1)**!  
 
 ---
 
 ## ✅ Recently Completed
 
-These features are live in the current version! 
+These features are live in the current version!  
+
+### Version 1.4 (January 2026)
+- ✅ **Better Error Messages** — Clearer feedback when something goes wrong
+- ✅ **Firestore Error Handling** — Improved database error handling and recovery
 
 ### Version 1.3 (December 2025)
 - ✅ **Improved Map Performance** — Faster loading with smart clustering and optimized data fetching
@@ -32,19 +36,19 @@ These features are live in the current version!
 
 ## 🚧 Currently Working On
 
-These features are actively in development!
+These features are actively in development! 
 
 ### Version 1.4 (Target: February 2026)
 | Feature | Description | Status |
 |---------|-------------|--------|
-| 🔨 Better Error Messages | Clearer feedback when something goes wrong | Planned |
-| 🔨 Security Improvements | Enhanced protection for your data | Planned |
+| 🔧 Memory Leak Fix | Resolving memory issues for better app performance | In Progress |
+| 🖼️ Image Caching | Improved image loading and caching for faster performance | In Progress |
 
 ---
 
 ## 📋 Coming Soon
 
-These features are planned for upcoming releases! 
+These features are planned for upcoming releases!  
 
 ### Version 1.5 — Park Content (Target: April 2026)
 | Feature | Description |
@@ -61,7 +65,7 @@ These features are planned for upcoming releases!
 | 📍 **Nearby Park Alerts** | Know when you're near a favorite or saved park |
 | ✅ **Check-In Reminders** | Gentle prompts to check in when you arrive at a park |
 
-### Version 1.7 — Achievements (Target: August 2026)
+### Version 1.7 — Achievements (Target:  August 2026)
 | Feature | Description |
 |---------|-------------|
 | 🏆 **Achievements & Badges** | Earn rewards for visiting parks, writing reviews, and more |
@@ -93,11 +97,11 @@ These are exciting ideas we're exploring for future releases!
 
 ## 💡 Want to Suggest a Feature?
 
-We'd love to hear from you! Your feedback shapes what we build next.
+We'd love to hear from you!  Your feedback shapes what we build next.
 
-### How to Submit Ideas:
+### How to Submit Ideas: 
 - **In the App:** Home → Submit Feedback (bottom of the screen)
-- **Facebook:** Comment on our posts or send us a message
+- **Facebook:** https://www.facebook.com/profile.php?id=61585277963898 Comment on our posts or send us a message
 - **GitHub:** [Open a discussion](https://github.com/Sophus55/Paw-Park-Pulse-Roadmap/discussions/28) (for technical suggestions)
 
 ---
@@ -106,16 +110,17 @@ We'd love to hear from you! Your feedback shapes what we build next.
 
 | Version | Release Date | Highlights |
 |---------|--------------|------------|
+| **1.4** | Jan 2026 | Better error messages, Firestore error handling |
 | **1.3** | Dec 2025 | Offline mode, dark mode, colored pins, map performance |
 | **1.2** | Nov 2025 | Dog profiles, park check-ins, admin panel |
 | **1.1** | Oct 2025 | Park details, amenities, improved search |
-| **1.0** | Sep 2025 | First release!  🎉 Map, parks, basic features |
+| **1.0** | Sep 2025 | First release!   🎉 Map, parks, basic features |
 
 ---
 
-## 🙏 Thank You!
+## 🙏 Thank You! 
 
-Thank you for being part of the Paw Park Pulse community! Your support and feedback make this app better for dog lovers everywhere.  🐕❤️
+Thank you for being part of the Paw Park Pulse community!  Your support and feedback make this app better for dog lovers everywhere.  🐕❤️
 
 *This roadmap is updated regularly.  Features and timelines may change based on your feedback and development priorities.*
 

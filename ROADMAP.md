@@ -10,7 +10,7 @@ Have a feature request? Submit feedback in the app or comment on our Facebook pa
 
 ## 📌 Visual Roadmap
 
-Want a more visual view?  Check out our **[Project Board]([https://github.com/users/Sophus55/projects/1](https://github.com/users/Sophus55/projects/2))**!  
+Want a more visual view?  Check out our **[Project Board](https://github.com/users/Sophus55/projects/1](https://github.com/users/Sophus55/projects/2)**!  
 
 ---
 

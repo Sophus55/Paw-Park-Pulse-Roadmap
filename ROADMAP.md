@@ -1,6 +1,6 @@
 # 🐾 Paw Park Pulse Roadmap
 
-**Last Updated:** January 4, 2026
+**Last Updated:** January 6, 2026
 
 Welcome to the Paw Park Pulse roadmap! Here you can see what we've built, what we're working on, and what's coming next.  
 
@@ -21,6 +21,8 @@ These features are live in the current version!
 ### Version 1.4 (January 2026)
 - ✅ **Better Error Messages** — Clearer feedback when something goes wrong
 - ✅ **Firestore Error Handling** — Improved database error handling and recovery
+- ✅ **Memory Leak Fix** — Resolved memory issues for better app performance
+- ✅ **Image Caching** — Improved image loading and caching for faster performance
 
 ### Version 1.3 (December 2025)
 - ✅ **Improved Map Performance** — Faster loading with smart clustering and optimized data fetching
@@ -38,25 +40,19 @@ These features are live in the current version!
 
 These features are actively in development! 
 
-### Version 1.4 (Target: February 2026)
+### Version 1.5 — Park Content (Target: April 2026)
 | Feature | Description | Status |
 |---------|-------------|--------|
-| 🔧 Memory Leak Fix | Resolving memory issues for better app performance | In Progress |
-| 🖼️ Image Caching | Improved image loading and caching for faster performance | In Progress |
+| ⭐ **Park Reviews** | Rate and review parks (1-5 stars) with photos | In Progress |
+| 🐕 **Lost Dogs Network** | Post and find lost dogs in your area | In Progress |
+| 🏪 **Dog-Friendly Places** | Find pet stores, groomers, vets, and restaurants on the map | In Progress |
+| 🤝 **Share Dog Profiles** | Share your dog's profile with friends and family | In Progress |
 
 ---
 
 ## 📋 Coming Soon
 
 These features are planned for upcoming releases!  
-
-### Version 1.5 — Park Content (Target: April 2026)
-| Feature | Description |
-|---------|-------------|
-| ⭐ **Park Reviews** | Rate and review parks (1-5 stars) with photos |
-| 🐕 **Lost Dogs Network** | Post and find lost dogs in your area |
-| 🏪 **Dog-Friendly Places** | Find pet stores, groomers, vets, and restaurants on the map |
-| 🤝 **Share Dog Profiles** | Share your dog's profile with friends and family |
 
 ### Version 1.6 — Notifications (Target: June 2026)
 | Feature | Description |
@@ -110,7 +106,7 @@ We'd love to hear from you!  Your feedback shapes what we build next.
 
 | Version | Release Date | Highlights |
 |---------|--------------|------------|
-| **1.4** | Jan 2026 | Better error messages, Firestore error handling |
+| **1.4** | Jan 2026 | Better error messages, Firestore error handling, memory leak fix, image caching |
 | **1.3** | Dec 2025 | Offline mode, dark mode, colored pins, map performance |
 | **1.2** | Nov 2025 | Dog profiles, park check-ins, admin panel |
 | **1.1** | Oct 2025 | Park details, amenities, improved search |

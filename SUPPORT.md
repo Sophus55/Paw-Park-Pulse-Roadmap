@@ -115,7 +115,7 @@ A: Your check-ins are visible to other app users at that park, but we do not sha
 3. **Restart location services:**
    - Go to **Settings > Privacy & Security > Location Services**
    - Toggle off, wait 10 seconds, toggle back on
-4. **Refresh the map:** Pull down on the map to refresh park data.
+4. **Refresh the map:** Navagate away and back to the map.
 
 ---
 

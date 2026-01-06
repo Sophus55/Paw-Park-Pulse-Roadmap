@@ -88,7 +88,7 @@ A: Yes. Your location is used only to show nearby parks and is never sold to adv
 A: Your personal profile data, photos, and subscription records are deleted within 24 hours. Park suggestions and reviews you submitted are anonymized. See our [Privacy Policy](#-legal) for details.
 
 **Q: Do you collect analytics?**  
-A: We log a minimal set of anonymous subscription metrics to understand how the app is being used. You can disable this in **Settings > Account > Anonymous Analytics**.
+A: We currently dont collect any analytics. You can disable analytics in **Settings > Account > Anonymous Analytics**.
 
 **Q: Who can see my check-ins?**  
 A: Your check-ins are visible to other app users at that park, but we do not share this data with third parties.

@@ -1,6 +1,6 @@
 # 🐾 Paw Park Pulse Roadmap
 
-**Last Updated:** January 6, 2026
+**Last Updated:** February 10, 2026
 
 Welcome to the Paw Park Pulse roadmap! Here you can see what we've built, what we're working on, and what's coming next.  
 
@@ -17,6 +17,14 @@ Want a more visual view?  Check out our **[Project Board](https://github.com/use
 ## ✅ Recently Completed
 
 These features are live in the current version!  
+
+### Version 1.5 (February 2026)
+- ✅ **Dog-Friendly Places** — Find pet stores, groomers, vets, restaurants, cafes & hotels on the map
+- ✅ **Reviews** — Rate and review parks AND dog-friendly locations with photos (1-5 stars)
+- ✅ **Share Dog Profiles** — Share your dog's profile with friends and family via QR code or share code
+- ✅ **Favorites** — Save parks and locations for quick access from home screen
+- ✅ **Map Filters** — Toggle location types on/off with filter bar (Premium)
+- ✅ **Location Caching** — Faster loading and offline access for dog-friendly locations
 
 ### Version 1.4 (January 2026)
 - ✅ **Better Error Messages** — Clearer feedback when something goes wrong
@@ -40,28 +48,20 @@ These features are live in the current version!
 
 These features are actively in development! 
 
-### Version 1.5 — Park Content (Target: April 2026)
+### Version 1.6 — Notifications & Lost Dogs (Target: June 2026)
 | Feature | Description | Status |
 |---------|-------------|--------|
-| ⭐ **Park Reviews** | Rate and review parks (1-5 stars) with photos | In Progress |
 | 🐕 **Lost Dogs Network** | Post and find lost dogs in your area | In Progress |
-| 🏪 **Dog-Friendly Places** | Find pet stores, groomers, vets, and restaurants on the map | In Progress |
-| 🤝 **Share Dog Profiles** | Share your dog's profile with friends and family | In Progress |
+| 🔔 **Push Notifications** | Get notified about park activity and updates | Planning |
+| 📍 **Nearby Park Alerts** | Know when you're near a favorite or saved park | Planning |
 
 ---
 
 ## 📋 Coming Soon
 
-These features are planned for upcoming releases!  
+These features are planned for upcoming releases!
 
-### Version 1.6 — Notifications (Target: June 2026)
-| Feature | Description |
-|---------|-------------|
-| 🔔 **Push Notifications** | Get notified about park activity and updates |
-| 📍 **Nearby Park Alerts** | Know when you're near a favorite or saved park |
-| ✅ **Check-In Reminders** | Gentle prompts to check in when you arrive at a park |
-
-### Version 1.7 — Achievements (Target:  August 2026)
+### Version 1.7 — Achievements (Target: August 2026)
 | Feature | Description |
 |---------|-------------|
 | 🏆 **Achievements & Badges** | Earn rewards for visiting parks, writing reviews, and more |
@@ -106,6 +106,7 @@ We'd love to hear from you!  Your feedback shapes what we build next.
 
 | Version | Release Date | Highlights |
 |---------|--------------|------------|
+| **1.5** | Feb 2026 | Dog-friendly places, reviews with photos, profile sharing, favorites, map filters |
 | **1.4** | Jan 2026 | Better error messages, Firestore error handling, memory leak fix, image caching |
 | **1.3** | Dec 2025 | Offline mode, dark mode, colored pins, map performance |
 | **1.2** | Nov 2025 | Dog profiles, park check-ins, admin panel |

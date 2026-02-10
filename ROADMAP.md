@@ -61,7 +61,7 @@ These features are actively in development!
 
 These features are planned for upcoming releases!
 
-### Version 1.7 — Achievements (Target:  August 2026)
+### Version 1.7 — Achievements (Target: August 2026)
 | Feature | Description |
 |---------|-------------|
 | 🏆 **Achievements & Badges** | Earn rewards for visiting parks, writing reviews, and more |

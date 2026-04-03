@@ -1,6 +1,6 @@
 # 🐾 Paw Park Pulse Roadmap
 
-**Last Updated:** February 10, 2026
+**Last Updated:** April 3, 2026
 
 Welcome to the Paw Park Pulse roadmap! Here you can see what we've built, what we're working on, and what's coming next.  
 
@@ -10,13 +10,22 @@ Have a feature request? Submit feedback in the app or comment on our Facebook pa
 
 ## 📌 Visual Roadmap
 
-Want a more visual view?  Check out our **[Project Board](https://github.com/users/Sophus55/projects/2])**!  
+Want a more visual view?  Check out our **[Project Board](https://github.com/users/Sophus55/projects/2)**!  
 
 ---
 
 ## ✅ Recently Completed
 
 These features are live in the current version!  
+
+### Version 1.6 (March–April 2026)
+- ✅ **Medication Tracking** — Add medications for your dogs, get push notification reminders when doses are due, coordinate dosing with shared caregivers
+- ✅ **Medication Label Scanner** — Scan medication bottle labels with your camera to auto-fill medication details (on-device OCR, photos never saved)
+- ✅ **Dogs Tab** — New dedicated tab for managing your dogs and their medications
+- ✅ **Push Notifications** — Real-time push notifications for medication reminders, admin alerts, and check-in prompts
+- ✅ **Check-In Prompts** — Get reminded to check in when you arrive at a dog park (geofence-based)
+- ✅ **Admin Notifications** — Admins receive instant alerts for new park suggestions and user feedback
+- ✅ **Notification Center** — Centralized in-app notification center with badge counts and deep-linking
 
 ### Version 1.5 (February 2026)
 - ✅ **Dog-Friendly Places** — Find pet stores, groomers, vets, restaurants, cafes & hotels on the map
@@ -44,31 +53,19 @@ These features are live in the current version!
 
 ---
 
-## 🚧 Currently Working On
-
-These features are actively in development! 
-
-### Version 1.6 — Notifications & Lost Dogs (Target: June 2026)
-| Feature | Description | Status |
-|---------|-------------|--------|
-| 🐕 **Lost Dogs Network** | Post and find lost dogs in your area | In Progress |
-| 🔔 **Push Notifications** | Get notified about park activity and updates | Planning |
-| 📍 **Nearby Park Alerts** | Know when you're near a favorite or saved park | Planning |
-
----
-
 ## 📋 Coming Soon
 
 These features are planned for upcoming releases!
 
-### Version 1.7 — Achievements (Target: August 2026)
+### Version 1.7 — Achievements & Admin Tools (Target: August 2026)
 | Feature | Description |
 |---------|-------------|
 | 🏆 **Achievements & Badges** | Earn rewards for visiting parks, writing reviews, and more |
 | 🎯 **Explorer Badges** | Special recognition for visiting parks in different states |
 | 🔥 **Check-In Streaks** | Track your park visit streaks |
+| 📊 **Suggestion Analytics** | Heatmaps and trends for admin insights |
 
-### Version 1.8 — Admin Tools (Target: October 2026)
+### Version 1.8 — Admin Web Portal (Target: October 2026)
 | Feature | Description |
 |---------|-------------|
 | 💻 **Web Admin Portal** | Manage parks, users, and suggestions from a desktop browser |
@@ -84,6 +81,8 @@ These are exciting ideas we're exploring for future releases!
 |------|-------------|
 | 🤖 **Android App** | Bring Paw Park Pulse to Android users |
 | 🐾 **Dog Social Features** | Follow other dogs, see activity feeds |
+| 💬 **Direct Messaging** | Message other dog owners in-app |
+| 🐕 **Lost Dogs Network** | Post and find lost dogs in your area |
 | 🏠 **Park Groups** | Join communities for your favorite parks |
 | 📅 **Dog Park Events** | Organize and discover local meetups |
 | 🐕‍🦺 **Breeding Marketplace** | Connect responsible breeders with health records |
@@ -106,12 +105,13 @@ We'd love to hear from you!  Your feedback shapes what we build next.
 
 | Version | Release Date | Highlights |
 |---------|--------------|------------|
+| **1.6** | Apr 2026 | Medication tracking, label scanner, Dogs tab, push notifications, check-in prompts, notification center |
 | **1.5** | Feb 2026 | Dog-friendly places, reviews with photos, profile sharing, favorites, map filters |
 | **1.4** | Jan 2026 | Better error messages, Firestore error handling, memory leak fix, image caching |
 | **1.3** | Dec 2025 | Offline mode, dark mode, colored pins, map performance |
 | **1.2** | Nov 2025 | Dog profiles, park check-ins, admin panel |
 | **1.1** | Oct 2025 | Park details, amenities, improved search |
-| **1.0** | Sep 2025 | First release!   🎉 Map, parks, basic features |
+| **1.0** | Sep 2025 | First release!  🎉 Map, parks, basic features |
 
 ---
 

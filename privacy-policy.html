@@ -45,7 +45,7 @@
     }
     .markdown-body { 
         padding: 30px;
-        background: transparent ! important;
+        background: transparent !important;
         color: #c9d1d9;
     }
     .markdown-body h1,
@@ -112,23 +112,23 @@
     <div class="content-wrapper">
         <div class="markdown-body">
             <h1>Paw Park Pulse Privacy Policy</h1>
-            <p><strong>Last Updated: </strong> February 10, 2026</p>
+            <p><strong>Last Updated: </strong> April 3, 2026</p>
 
-            <p><em>(Non‑legal summary)</em> You create an account, optionally add profile + dog info, and use location to find parks and dog-friendly locations. You can leave reviews and share your dog's profile. We don't sell your data. If you delete your account, we delete your personal data and photos. There is no end‑to‑end encryption; standard platform security applies.</p>
+            <p><em>(Non‑legal summary)</em> You create an account, optionally add profile + dog info, and use location to find parks and dog-friendly locations. You can leave reviews, share your dog's profile, and track medications with reminders. We use your camera only when you choose to scan a medication label or take pictures for dog profiles or reviews — label photos are never saved or uploaded. We don't sell your data. If you delete your account, we delete your personal data, photos, and medication records. There is no end‑to‑end encryption; standard platform security applies.</p>
 
             <hr>
 
             <h2>1. Overview</h2>
-            <p>Paw Park Pulse ("Paw Park Pulse", "we", "us", or "the App") helps dog owners discover dog parks and dog-friendly locations, check in, leave reviews, and share community input. This Privacy Policy explains what personal data we collect, how we use it, and your choices.  By using the App you agree to this Policy.</p>
+            <p>Paw Park Pulse ("Paw Park Pulse", "we", "us", or "the App") helps dog owners discover dog parks and dog-friendly locations, check in, leave reviews, track pet medications, and share community input. This Privacy Policy explains what personal data we collect, how we use it, and your choices. By using the App you agree to this Policy.</p>
             <p><strong>You must not use the App if you disagree with this Policy.</strong></p>
 
             <h2>2. Scope</h2>
             <p>This Policy applies to the Paw Park Pulse mobile application and any related in‑app features. It does not cover third‑party websites or services we do not control.</p>
 
             <h2>3. Data We Collect</h2>
-            <p>We aim to collect the minimum necessary to operate the App. </p>
+            <p>We aim to collect the minimum necessary to operate the App.</p>
 
-            <h3>3.1 Account & Authentication</h3>
+            <h3>3.1 Account &amp; Authentication</h3>
             <ul>
                 <li>Email address (or Apple Sign In relay/identifier)</li>
                 <li>Display name / username</li>
@@ -143,7 +143,8 @@
 
             <h3>3.3 Location Data (Permission Based)</h3>
             <ul>
-                <li>Device location (approximate or precise depending on your device settings) used to:  show nearby parks, support check‑ins, and map features. </li>
+                <li>Device location (approximate or precise depending on your device settings) used to: show nearby parks, support check‑ins, map features, and check-in proximity prompts.</li>
+                <li><strong>Background location</strong> (only if you enable Check-In Prompts) is used to detect when you enter a park region so we can remind you to check in. Background location is never sold or shared with advertisers.</li>
                 <li><strong>Location data is not sold and is not shared with advertisers.</strong></li>
             </ul>
 
@@ -157,7 +158,7 @@
                 <li>Other text or media you voluntarily submit</li>
             </ul>
 
-            <h3>3.5 Subscription & Purchase Metadata</h3>
+            <h3>3.5 Subscription &amp; Purchase Metadata</h3>
             <ul>
                 <li>Subscription tier (Single or Family)</li>
                 <li>Renewal status, product identifiers, expiration date</li>
@@ -171,12 +172,28 @@
                 <li>Shared profile access records when you share with or receive profiles from other users</li>
             </ul>
 
-            <h3>3.7 Support Communications</h3>
+            <h3>3.7 Medication Data (Optional, Consent Required)</h3>
+            <ul>
+                <li>Medication names, dosages, frequencies, and scheduling information you enter for your dogs</li>
+                <li>Dose administration logs (who marked a dose, when, and whether it was given or skipped)</li>
+                <li>Medication consent status and date (recorded when you accept the Medication Disclaimer)</li>
+                <li><strong>Camera access</strong> is requested only when you choose to scan a medication label. The camera captures text using on-device OCR (Apple Vision framework). <strong>Label photos are never saved, uploaded, or transmitted</strong> — only the extracted text fields (medication name, dosage, frequency) are stored in your account.</li>
+                <li>Medication data is stored as a subcollection under your dog profile and is accessible only to you and users you have shared that dog's profile with.</li>
+            </ul>
+
+            <h3>3.8 Notification &amp; Proximity Data</h3>
+            <ul>
+                <li>Push notification device tokens (Firebase Cloud Messaging) used to deliver medication reminders, admin alerts, and check-in prompts</li>
+                <li>Geofence proximity events (park ID, timestamp) when Check-In Prompts are enabled, used to trigger check-in reminders</li>
+                <li>Per-type notification preferences you configure (e.g., medication reminders, admin suggestions, check-in prompts)</li>
+            </ul>
+
+            <h3>3.9 Support Communications</h3>
             <ul>
                 <li>Emails or messages you send to our support address</li>
             </ul>
 
-            <h3>3.8 Technical & Basic Operational Data</h3>
+            <h3>3.10 Technical &amp; Basic Operational Data</h3>
             <ul>
                 <li>Device OS/version, app version (used only to ensure compatibility)</li>
                 <li>Error or crash context automatically provided by the operating system (if any)</li>
@@ -186,8 +203,9 @@
             <ul>
                 <li>No advertising identifiers are currently used.</li>
                 <li>No third‑party marketing analytics SDKs (e.g., ad networks) are integrated.</li>
+                <li>No medication label photos are saved, uploaded, or transmitted.</li>
             </ul>
-            <p>If this changes, we will update this Policy before enabling broader analytics. </p>
+            <p>If this changes, we will update this Policy before enabling broader analytics.</p>
 
             <h2>4. How We Use Your Data</h2>
             <p>We use data to:</p>
@@ -197,6 +215,9 @@
                 <li>Display reviews and ratings for parks and dog-friendly locations</li>
                 <li>Enable profile sharing between users via QR codes and share codes</li>
                 <li>Show favorites and saved locations</li>
+                <li><strong>Send medication dose reminders</strong> via push notifications and in-app alerts at times you configure</li>
+                <li><strong>Coordinate medication dosing</strong> between shared caregivers (dose given/skipped notifications)</li>
+                <li><strong>Detect park proximity</strong> to prompt check-ins (only when you enable Check-In Prompts)</li>
                 <li>Operate subscriptions and entitlement validation (Single $2.99 / Family $9.99 — pricing may vary by region/tax)</li>
                 <li>Moderate or remove content that violates our Terms</li>
                 <li>Respond to support requests</li>
@@ -206,80 +227,95 @@
             </ul>
 
             <h2>5. Legal Basis (International Users)</h2>
-            <p>The App is operated from the United States (West Virginia). If you access it from other regions, processing may rely on: </p>
+            <p>The App is operated from the United States (West Virginia). If you access it from other regions, processing may rely on:</p>
             <ul>
                 <li>Contract (providing the service you requested)</li>
                 <li>Legitimate interests (service reliability, fraud prevention)</li>
-                <li>Consent (precise location access, optional profile fields)</li>
+                <li>Consent (precise location access, background location, optional profile fields, medication data collection)</li>
                 <li>Legal obligation (records retention if required by law)</li>
             </ul>
 
-            <h2>6. Sharing & Disclosure</h2>
-            <p>We do <strong>not</strong> sell or rent personal data. </p>
+            <h2>6. Sharing &amp; Disclosure</h2>
+            <p>We do <strong>not</strong> sell or rent personal data.</p>
             <p>We may disclose limited data to:</p>
             <ul>
-                <li><strong>Service Providers:</strong> Firebase (authentication, Firestore storage), Apple (Sign In & App Store billing), cloud storage/CDN services for images. </li>
-                <li><strong>Legal & Safety:</strong> When required by law, subpoena, or to protect rights, safety, or integrity of the service.</li>
+                <li><strong>Service Providers:</strong> Firebase (authentication, Firestore storage, Cloud Messaging), Apple (Sign In &amp; App Store billing), cloud storage/CDN services for images.</li>
+                <li><strong>Legal &amp; Safety:</strong> When required by law, subpoena, or to protect rights, safety, or integrity of the service.</li>
                 <li><strong>Business Transfer:</strong> If we undergo a merger, acquisition, or asset sale (you will be notified where legally required).</li>
             </ul>
             <p><strong>Public Content:</strong> Photos, park suggestions, reviews, and display names you intentionally submit for public display may be visible to other users.</p>
+            <p><strong>Medication Data:</strong> Medication records are <strong>not public</strong>. They are visible only to you and users you have explicitly shared that dog's profile with.</p>
 
-            <h2>7. Data Retention & Deletion</h2>
+            <h2>7. Data Retention &amp; Deletion</h2>
             <ul>
                 <li><strong>Active Account:</strong> Retained while your account exists.</li>
-                <li><strong>Account Deletion:</strong> When you request deletion (or use an in‑app delete feature), we delete personal profile data, subscription linkage, dog info, and user photos.  Deletion is initiated promptly and completed within a reasonable timeframe subject to technical constraints and legal holds.</li>
+                <li><strong>Account Deletion:</strong> When you request deletion (or use the in‑app delete feature), we delete personal profile data, subscription linkage, dog info, medication records, dose logs, user photos, and notification data. Deletion is initiated promptly and completed within a reasonable timeframe subject to technical constraints and legal holds.</li>
                 <li><strong>Public Contributions:</strong> Park photos, reviews, and suggestions are also removed unless required for legal reasons (e.g., abuse investigation); if retained, they are anonymized.</li>
+                <li><strong>Medication Data:</strong> You can delete individual medications, all medications for a dog, or all medication data via account deletion. Medication data is also cascade-deleted when a dog profile is removed.</li>
             </ul>
-            <p>You can request deletion by emailing:  <a href="mailto:ray@lowrynet.com">ray@lowrynet.com</a> (from the email associated with your account) if an in‑app option is not yet available.</p>
+            <p>You can request deletion by emailing: <a href="mailto:ray@lowrynet.com">ray@lowrynet.com</a> (from the email associated with your account) if an in‑app option is not yet available.</p>
 
-            <h2>8. Your Choices & Rights</h2>
+            <h2>8. Your Choices &amp; Rights</h2>
             <ul>
-                <li><strong>Location: </strong> Disable in device settings to stop location access (core location‑based features will degrade).</li>
-                <li><strong>Profile Edits:</strong> Modify or remove optional profile fields in the app (when UI available) or by contacting support.</li>
+                <li><strong>Location:</strong> Disable in device settings to stop location access (core location‑based features will degrade).</li>
+                <li><strong>Background Location:</strong> Revoke "Always" permission to stop check-in proximity prompts while preserving other location features.</li>
+                <li><strong>Camera:</strong> Deny camera access to disable medication label scanning, taking pictures for dog proiles/reviews (you can still enter medication details manually).</li>
+                <li><strong>Medication Data:</strong> Delete individual medications or all medication data from the dog's profile at any time.</li>
+                <li><strong>Notifications:</strong> Configure per-type notification preferences (medication reminders, check-in prompts, admin alerts) in Notification Settings.</li>
+                <li><strong>Profile Edits:</strong> Modify or remove optional profile fields in the app or by contacting support.</li>
                 <li><strong>Deletion:</strong> Request account deletion as described above.</li>
-                <li><strong>International Rights:</strong> Depending on your jurisdiction (e.g., EU/EEA/UK, some U.S. states), you may have rights to access, rectify, delete, restrict, object, or portability.  We will honor valid requests within applicable legal timeframes.</li>
+                <li><strong>International Rights:</strong> Depending on your jurisdiction (e.g., EU/EEA/UK, some U.S. states), you may have rights to access, rectify, delete, restrict, object, or portability. We will honor valid requests within applicable legal timeframes.</li>
             </ul>
 
             <h2>9. Children</h2>
-            <p>The App is not directed to children under 13 and is not intended for anyone below the minimum digital consent age in their jurisdiction.  We do not knowingly collect data from children.  Contact us if you believe we have inadvertently collected such data and we will take steps to delete it.</p>
+            <p>The App is not directed to children under 13 and is not intended for anyone below the minimum digital consent age in their jurisdiction. We do not knowingly collect data from children. Contact us if you believe we have inadvertently collected such data and we will take steps to delete it.</p>
 
             <h2>10. Security</h2>
-            <p>We use reasonable administrative, technical, and organizational measures proportionate to the nature of the data: </p>
+            <p>We use reasonable administrative, technical, and organizational measures proportionate to the nature of the data:</p>
             <ul>
-                <li>Transport security (TLS) for data in transit between the app and backend services. </li>
+                <li>Transport security (TLS) for data in transit between the app and backend services.</li>
                 <li>Access controls restricted to operational personnel.</li>
                 <li>Authentication handled via Firebase Auth.</li>
+                <li>Medication dose recording uses database transactions to prevent race conditions between caregivers.</li>
             </ul>
-            <p><strong>Important:</strong> <strong>No end‑to‑end encryption</strong> of user-generated content is provided. Data at rest may rely on platform (e.g., Firebase / cloud provider) encryption rather than custom application‑layer encryption.  No security is perfect; use the App at your own risk and promptly report suspected breaches.</p>
+            <p><strong>Important:</strong> <strong>No end‑to‑end encryption</strong> of user-generated content is provided. Data at rest may rely on platform (e.g., Firebase / cloud provider) encryption rather than custom application‑layer encryption. No security is perfect; use the App at your own risk and promptly report suspected breaches.</p>
 
             <h2>11. International Transfers</h2>
-            <p>Data may be stored or processed in the United States or other regions where our infrastructure or service providers operate. By using the App you consent to these transfers.  Where required, we rely on standard contractual clauses or other lawful mechanisms. </p>
+            <p>Data may be stored or processed in the United States or other regions where our infrastructure or service providers operate. By using the App you consent to these transfers. Where required, we rely on standard contractual clauses or other lawful mechanisms.</p>
 
-            <h2>12. Third-Party Services & Links</h2>
+            <h2>12. Third-Party Services &amp; Links</h2>
             <p>External links or embedded resources (if any) are governed by their own policies. Review their privacy practices separately.</p>
 
             <h2>13. Do Not Track</h2>
-            <p>We do not currently respond to browser or platform "Do Not Track" signals. </p>
+            <p>We do not currently respond to browser or platform "Do Not Track" signals.</p>
 
             <h2>14. Changes to This Policy</h2>
-            <p>We may update this Policy.  The "Last Updated" date reflects the latest revision. Material changes may be highlighted in‑app or via notice.  Continued use after changes become effective constitutes acceptance. </p>
+            <p>We may update this Policy. The "Last Updated" date reflects the latest revision. Material changes may be highlighted in‑app or via notice. Continued use after changes become effective constitutes acceptance.</p>
 
             <h2>15. Contact</h2>
-            <p>Questions, requests, or concerns: </p>
+            <p>Questions, requests, or concerns:</p>
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:ray@lowrynet.com">ray@lowrynet.com</a></li>
-                <li>(Postal address may be added if required by applicable law. )</li>
+                <li>(Postal address may be added if required by applicable law.)</li>
             </ul>
 
             <h2>16. California / U.S. State Notices (General Statement)</h2>
             <p>We do not sell personal information and do not share it for cross‑context behavioral advertising. If state privacy laws grant you specific rights beyond those listed, contact us and we will provide information or action as required by law.</p>
 
-            <h2>17. Future Features / Analytics Expansion Disclaimer</h2>
-            <p>If we later introduce broader analytics, advertising, or additional data uses, we will update this Policy and, where required, request consent before activation. </p>
+            <h2>17. International Medication Data Compliance</h2>
+            <ul>
+                <li>This app is a <strong>reminder tool only</strong> and does not provide veterinary advice, diagnose conditions, or prescribe medications.</li>
+                <li><strong>GDPR / LGPD / APPI / PIPA:</strong> Explicit consent is obtained via the Medication Disclaimer before any medication data is collected. You may withdraw consent and delete all medication data at any time.</li>
+                <li><strong>EU Regulation 2019/6</strong> (Veterinary Medicinal Products): The App does not dispense, prescribe, or recommend medications.</li>
+                <li><strong>Right to delete:</strong> Per-medication deletion, per-dog cascade deletion, full account deletion, and data export requests are supported.</li>
+            </ul>
+
+            <h2>18. Future Features / Analytics Expansion Disclaimer</h2>
+            <p>If we later introduce broader analytics, advertising, or additional data uses, we will update this Policy and, where required, request consent before activation.</p>
 
             <hr>
 
-            <p><strong>Version: </strong> PP v1.2</p>
+            <p><strong>Version: </strong> PP v1.3</p>
         </div>
 
         <footer>
